@@ -1,0 +1,19 @@
+<student>
+    <name>peraiah Tellagorla</name>
+    <dob>26-06-2001</dob>
+    <age>25</age>
+    <addresses>
+        <address type="perm">
+            <doorNo>4-51</doorNo>
+            <street>main road kotcherla</street>
+            <pin>522647</pin>
+        </address>
+
+        <address type="cuurent">
+            <doorNo>4-51</doorNo>
+            <street>main road kotcherla</street>
+            <pin>522647</pin>
+        </address>
+        
+    </addresses>
+</student>

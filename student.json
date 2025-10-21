@@ -1,0 +1,25 @@
+
+{
+    "Name": "peraiah Tellagorla",
+    "DOB": "26-06-2001",
+    "AGE": "25",
+    "ADDRESSES": [
+        {
+            "TYPE": "current",
+            "STREET": "main road kotcherla",
+            "PIN": "522647",
+            "CITY": "vinukoda",
+            "DOORNO": "4-51"
+        },
+
+        {
+            "TYPE": "perm",
+            "STREET": "main road kotcherla",
+            "PIN": "522647",
+            "CITY": "vinukoda",
+            "DOORNO": "4-51"
+        }
+    ],
+
+    "SKILLS": [ "devops", "aws", "linux"]
+}

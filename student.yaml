@@ -1,0 +1,24 @@
+- name: peraiah Tellagorla
+  dob: 26-06-2001
+  age: 25
+  addresses:
+  - doorno: 4-51
+    street: main road kotcherla
+    city: vinukonda
+    pin: 522647
+    type: current
+
+  - doorno: 4-51
+    street: main road kotcherla
+    city: vinukonda
+    pin: 522647
+    type: perm
+
+  skills:
+  - java
+  - devops
+  - aws 
+  - cloud
+
+
+  
