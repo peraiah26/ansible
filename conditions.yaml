@@ -1,4 +1,4 @@
-- name: conditional variables
+- name: conditional 
   hosts: local
   connection: local
   vars:
@@ -6,5 +6,5 @@
   tasks:
   - name: given number less than 10 or not
     ansible.builtin.debug:
-     msg: "given number is {{NUMBER}} less than 10"
-  when: NUMBER < 10
+     msg: "given number is {{ NUMBER }} less than 10"
+    when: NUMBER < 10
