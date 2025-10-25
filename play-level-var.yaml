@@ -2,12 +2,12 @@
   hosts: local
   connection: local
   vars:
-  NAME: peraiah
-  JOB: devops developer
-  FATHER: anjibabu
-  MOTHER: venkata ramana
+    NAME: peraiah
+    JOB: devops developer
+    FATHER: anjibabu
+    MOTHER: venkata ramana
 
   tasks:
   - name: print the background info
     ansible.builtin.debug:
-     msg: "your name is {{NAME}}, job: {{JOB}}, father: {{FATHER}}, mother: {{MOTHER}}"
+     msg: "your name is: {{NAME}}, job: {{JOB}}, father: {{FATHER}}, mother: {{MOTHER}}"
