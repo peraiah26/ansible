@@ -1,0 +1,9 @@
+- name: print the information
+  hosts: local
+  connection: local
+  vars_files:
+    details.yaml
+  tasks:
+  - name: print the msg
+    ansible.builtin.debug:
+       msg: "your name is: {{NAME}}, job: {{JOB}}, father: {{FATHER}}, mother: {{MOTHER}}"
